@@ -29,6 +29,8 @@ steps:
     contents: |
        src/*
        public/*
+       **\*.js
+       **\*.json
     targetFolder: '$(Build.ArtifactStagingDirectory)'
   displayName: 'Copy project files'
 
